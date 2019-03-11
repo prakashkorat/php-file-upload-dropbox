@@ -1,14 +1,9 @@
 
-Usefull docs URL:
-https://www.dropbox.com/developers-v1/core/docs
-https://www.sitepoint.com/build-your-own-dropbox-client-with-the-dropbox-api/
-
 1) Login dropbox using this URL :
 https://www.dropbox.com/1/oauth2/authorize?client_id=<your client_id here>&response_type=code&redirect_uri=<optional - your redirect url here>
 
->> After login you get code. This code use in second api.
+- After login you get code. This code use in second api.
 
----------------------------------------------------------------------------------------------------------
 
 2) https://api.dropboxapi.com/1/oauth2/token
 
@@ -30,9 +25,7 @@ Response :
     "account_id": "dbid:AACTR-VoEJIXzGNz8LNxWG30lj2sxwOP6-8"
 }
 
->> This access token use in third api.
-
----------------------------------------------------------------------------------------------------------
+- This access token use in third api.
 
 3) This PHP code for upload file into dropbox
 
