@@ -58,9 +58,9 @@
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	// curl_setopt($ch, CURLOPT_VERBOSE, 1); // debug
 
-$response = curl_exec($ch);
-$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-echo($response.'<br/>');
-echo($http_code.'<br/>');
+	$response = curl_exec($ch);
+	$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+	echo($response.'<br/>');
+	echo($http_code.'<br/>');
 
-curl_close($ch);
+	curl_close($ch);
