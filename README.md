@@ -60,7 +60,7 @@
 
 	$response = curl_exec($ch);
 	$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-	echo($response.'<br/>');
-	echo($http_code.'<br/>');
+	
+	print_r($response);
 
 	curl_close($ch);
